@@ -1,10 +1,8 @@
 ###############################################################################
-## Filename: Data Analytics I - Predictive Modeling - Exercise 2
+## Filename: MAchine Learning for Economists and Business Analysts
 ## Topic: Penalized Regression
-## Note: Solution
 ###############################################################################
 
-# Group Home Assignment
 getwd()
 #setwd()
 
