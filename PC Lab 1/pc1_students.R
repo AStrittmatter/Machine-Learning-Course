@@ -1,5 +1,5 @@
 ###############################################################################
-## Filename: MAchine Learning for Economists and Business Analysts
+## Course: Machine Learning for Economists and Business Analysts
 ## Topic: Penalized Regression
 ###############################################################################
 
