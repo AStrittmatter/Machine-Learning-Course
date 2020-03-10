@@ -1,7 +1,6 @@
 ###############################################################################
 ## Course: Machine Learning for Economists and Business Analysts
 ## Topic: Trees and Forest
-
 ###############################################################################
 
 # Install packages
@@ -97,7 +96,7 @@ tree_data_2006 <-  data.frame(outcome, x_2006[training_set,])
 # Build shallow tree
 shallow_tree <- rpart(formula = outcome ~., data = tree_data_2006, method = "anova", xval = 10,
                              y = TRUE, control = rpart.control(cp = 0.00002, minbucket=100))
-# Note: 'minbucket=100' imposes the restriction that each terminal leave should contain at least 100 used cars. 
+# Note: 'minbucket=100' imposes the restriction that each terminal leave should contain at least 100 observations. 
 # The algorithm 'rpart' stops growing trees when either one leave has less than 100 observations or the MSE gain of addidng one addidtional leave is below cp=0.00002.
 
 ## Plot tree structure
@@ -193,7 +192,7 @@ fit <- predict(????, newdata = ????)$predictions
 # R-squared
 MSE1 <- mean(((log_y_2006[-training_set,])-fit)^2)
 r2_forest1 <-  1- MSE1/var(log_y_2006[-training_set,]) 
-print(r2_tree,r2_forest1)
+print(cbind(r2_tree,r2_forest1))
 
 ###############################################################################
 # Task 2
