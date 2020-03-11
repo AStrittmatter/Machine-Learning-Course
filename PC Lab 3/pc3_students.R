@@ -37,7 +37,7 @@ missings <- rowSums(????==0)
 sum(missings == 0)
 
 # Shares of missing votings
-s_missings <- missings/(ncol(votes)-1)
+s_missings <- missings/ncol(votes)
 
 # Histogram with 100 bins
 hist(????, breaks = 100)
