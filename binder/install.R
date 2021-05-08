@@ -6,4 +6,6 @@ install.packages('plotmo')
 install.packages('AER')
 install.packages('fBasics')
 install.packages('tidyverse')
+install.packages('rpart.plot')
+install.packages('DiagrammeR')
 
