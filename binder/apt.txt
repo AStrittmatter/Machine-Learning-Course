@@ -1,0 +1,2 @@
+libopenblas-base
+libgsl-dev
