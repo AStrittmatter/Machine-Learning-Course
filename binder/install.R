@@ -8,5 +8,7 @@ install.packages('AER')
 install.packages('fBasics')
 install.packages('tidyverse')
 install.packages('rpart.plot')
-
-
+install.packages('hdm')
+install.packages('caret')
+install.packages('lmtest')
+install.packages('sandwich')
