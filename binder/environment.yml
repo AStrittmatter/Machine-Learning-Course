@@ -1,4 +1,30 @@
+channels:
+  - conda-forge
 dependencies:
-  - matplotlib
-  - numpy
-  - pandas
+  - r-base=3.6
+  - r-tidyverse
+  - r-fbasics
+  - r-corrplot
+  - r-psych
+  - r-glmnet
+  - r-glmnetutils
+  - r-grf
+  - r-rpart
+  - r-rpart.plot
+  - r-treeclust
+  - r-randomforest
+  - r-rlang
+  - r-readr
+  - r-devtools
+  - r-reshape2
+  - r-caret
+  - r-plotmo
+  - r-randomfieldsutils
+  - r-rms
+  - r-hdm
+  - r-aer
+  - r-lmtest
+  - r-dplyr
+  - r-sandwich
+  - r-diagrammer
+  - r-neuralnet
