@@ -28,3 +28,10 @@ dependencies:
   - r-sandwich
   - r-diagrammer
   - r-neuralnet
+  - r-ISLR2
+  - r-torch
+  - r-luz
+  - r-torchvision
+  - r-torchdatasets
+  - r-zeallot
+
