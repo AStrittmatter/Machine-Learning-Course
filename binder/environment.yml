@@ -1,7 +1,7 @@
 channels:
   - conda-forge
 dependencies:
-  - r-base=3.6
+  - r-base=4.3
   - r-tidyverse
   - r-fbasics
   - r-corrplot
@@ -34,4 +34,3 @@ dependencies:
   - r-torchvision
   - r-torchdatasets
   - r-zeallot
-
