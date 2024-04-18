@@ -32,5 +32,4 @@ dependencies:
   - r-torch
   - r-luz
   - r-torchvision
-  - r-torchdatasets
   - r-zeallot
