@@ -1,3 +1,4 @@
+name: r-environment
 channels:
   - conda-forge
 dependencies:
@@ -11,7 +12,6 @@ dependencies:
   - r-grf
   - r-rpart
   - r-rpart.plot
-  - r-treeclust
   - r-randomforest
   - r-rlang
   - r-readr
@@ -29,7 +29,5 @@ dependencies:
   - r-diagrammer
   - r-neuralnet
   - r-ISLR2
-  - r-torch
-  - r-luz
-  - r-torchvision
   - r-zeallot
+  - r-nycflights13
